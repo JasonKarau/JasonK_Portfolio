@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  background: white;
+}
+
+.name {
+  font-size: 40px;
+  margin: 0;
+  padding: 40px 20px 40px 40px;
+  text-align: left;
+  color: white;
+}
+
+.main-nav {
+  margin: 0;
+  background: black;
+  width: 100%;
+  list-style-type: none;
+}
+
+.nav {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 20px 20px 20px;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: color .15s ease-in-out;
+}
+
+a:hover {
+  color: rgb(40, 203, 255);
+}
+
+li {
+  color: white;
+  padding: 0px 40px 0px 0px;
+  display: block;
+  font-size: 18px;
+}
+
+hr {
+  text-align: center;
+  box-shadow: 0 0 30px 1px white;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.tagline {
+  padding: 0;
+}
+
+.quip {
+  margin: 0;
+  font-size: 70px;
+  color: black;
+  padding: 40px 20px 40px 40px;
+  text-align: left;
+}
+
+/* .caption {
+  font-size: 2px;
+  display: realtive;
+} */
+
+button {
+  border: 10px solid black;
+  border-radius: 25px;
+  color: black;
+  background-color: white;
+  margin: 20px 20px 20px 40px;
+  padding: 14px;
+  float: left;
+  -webkit-transition-duration: 0.2s; /* Safari */
+  transition-duration: 0.2s;
+  font-size: 40px
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  text-shadow: 0px 0px 30px white;
+}
+
+/* GRID */
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding-top: 60px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 2%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66%; }
+.span_1_of_3 { width: 32%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
