@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  /* border: 1px solid red; */
 }
 
 body {
@@ -24,6 +25,7 @@ body {
   width: 100%;
   list-style-type: none;
 }
+
 
 .nav {
   list-style-type: none;
@@ -53,6 +55,7 @@ li {
 hr {
   text-align: center;
   box-shadow: 0 0 30px 1px white;
+  margin: 0;
 }
 
 h1 {
@@ -71,10 +74,10 @@ h1 {
   text-align: left;
 }
 
-/* .caption {
+.caption {
   font-size: 2px;
   display: realtive;
-} */
+}
 
 button {
   border: 10px solid black;
@@ -95,35 +98,82 @@ button:hover {
   text-shadow: 0px 0px 30px white;
 }
 
-/* GRID */
+@media only screen and (max-width: 375px) {
+  .main-nav {
+    width: 375px;
+    margin: auto;
+    text-align: center;
+    padding: 0;
+  }
+  body {
+    background: white;
+  }
+  .name {
+    font-size: 30px;
+    padding: 20px 20px 20px 40px;
+  }
+  .tagline {
+    margin: 0;
+    text-align: center;
+  }
+  .quips {
+    margin: 0px 60px 0px 0px;
+    font-size: 36px;
+    color: black;
+    padding: 20px 20px 0px 40px;
+    text-align: left;
+    font-weight: 600;
+  }
+  li {
+    color: white;
+    padding: 15px 20px 15px 0px;
+    text-align: left;
+  }
+  ul.nav {
+    /* display: inline; */
+    margin: 0;
+    padding: 0px 0px 0px 40px;
+    justify-content: left;
+  }
 
-/*  SECTIONS  */
-.section {
-	clear: both;
-	padding-top: 60px;
-	margin: 0px;
+  button {
+    display: none;
+  }
+
+  .subtag > p {
+    margin: 0;
+    padding: 10px 0px 50px 40px;
+    text-align: left;
+    font-size: 3px;
+    line-height: 1.1rem;
+    font-style: oblique;
+  }
+
+  .cardtext {
+    /* background-image: linear-gradient(to right, grey .3%, white 15%); */
+  }
+
+  .vpat {
+    display: block;
+    margin: auto;
+    height: 250px;
+    padding: 0;
+  }
+
+  .prepare {
+    margin: 0px 60px 0px 0px;
+    font-size: 30px;
+    color: black;
+    padding: 60px 20px 0px 40px;
+    text-align: left;
+    font-weight: 500;
 }
 
-/*  COLUMN SETUP  */
-.col {
-	display: block;
-	float:left;
-	margin: 1% 0 1% 2%;
-}
-.col:first-child { margin-left: 0; }
-
-/*  GROUPING  */
-.group:before,
-.group:after { content:""; display:table; }
-.group:after { clear:both;}
-.group { zoom:1; /* For IE 6/7 */ }
-/*  GRID OF THREE  */
-.span_3_of_3 { width: 100%; }
-.span_2_of_3 { width: 66%; }
-.span_1_of_3 { width: 32%; }
-
-/*  GO FULL WIDTH BELOW 480 PIXELS */
-@media only screen and (max-width: 480px) {
-	.col {  margin: 1% 0 1% 0%; }
-	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
-}
+  .subtext {
+    margin: 0px 70px 0px 0px;
+    padding: 10px 0px 50px 40px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.2rem;
+    font-weight: 500;
+  }
