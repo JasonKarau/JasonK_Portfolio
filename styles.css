@@ -138,6 +138,10 @@ h1 {
     padding: 0;
   }
 
+  .mac {
+    display: none;
+  }
+
   .prepare {
     margin: 0px 60px 0px 0px;
     font-size: 30px;
@@ -217,11 +221,11 @@ h1 {
   }
 
   footer {
-    height: 70px;
+    height: 50px;
     width: 100%;
     background-color: orange;
     margin-bottom: 0px;
-    background-image: linear-gradient(white 2%,orange 100%);
+    background-image: linear-gradient(white 10%,grey 100%);
   }
 
   hr.break {
@@ -293,6 +297,10 @@ h1 {
     padding: 0;
   }
 
+  .mac {
+    display: none;
+  }
+
   .prepare {
     margin: 0px 60px 0px 0px;
     font-size: 30px;
@@ -372,11 +380,11 @@ h1 {
   }
 
   footer {
-    height: 70px;
+    height: 75px;
     width: 100%;
     background-color: orange;
     margin-bottom: 0px;
-    background-image: linear-gradient(white 2%,orange 100%);
+    background-image: linear-gradient(white 10%,grey 100%);
   }
 
   hr.break {
@@ -404,8 +412,8 @@ h1 {
     margin: 0;
   }
   .quips {
-    margin: 0px 60px 0px 0px;
-    font-size: 43px;
+    margin: 0px 40px 0px 0px;
+    font-size: 45px;
     color: black;
     padding: 20px 20px 0px 40px;
     text-align: left;
@@ -431,7 +439,7 @@ h1 {
     margin: auto;
     padding: 10px 40px 50px 40px;
     text-align: left;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 1.1rem;
     font-style: oblique;
   }
@@ -443,14 +451,20 @@ h1 {
   .vpat {
     display: inline;
     margin: 0px 0px 40px 40px;
-    height: 350px;
+    height: 330px;
     padding: 0;
+  }
 
+  .mac {
+    display: inline;
+    margin: 0px 40px 100px 40px;
+    height: 200px;
+    padding: 0;
   }
 
   .prepare {
     margin: 0px 60px 0px 0px;
-    font-size: 30px;
+    font-size: 40px;
     color: black;
     padding: 40px 20px 0px 40px;
     text-align: left;
@@ -461,7 +475,7 @@ h1 {
     margin: 0px 70px 0px 0px;
     padding: 10px 0px 20px 40px;
     text-align: left;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.2rem;
     font-weight: 500;
   }
@@ -474,13 +488,18 @@ h1 {
     background-color: white;
     margin: 0px 120px 40px 120px;
     box-shadow: 0px 0px 5px black;
+    transition: .2s ease-in-out;
+  }
+
+  .home:hover {
+    box-shadow: 0px 0px 15px black;
   }
 
   h1.projects {
     margin: 0;
-    padding: 20px 0px 30px 40px;
+    padding: 20px 0px 60px 40px;
     text-align: left;
-    font-size: 23px;
+    font-size: 28px;
     line-height: 1.1rem;
   }
 
@@ -495,7 +514,7 @@ h1 {
 
   h1.ready {
     margin: 0;
-    font-size: 25px;
+    font-size: 30px;
     color: white;
     padding: 30px 20px 10px 40px;
     text-align: left;
@@ -527,16 +546,11 @@ h1 {
   }
 
   footer {
-    height: 70px;
+    height: 75px;
     width: 100%;
     background-color: orange;
     margin-bottom: 0px;
-    background-image: linear-gradient(white 2%,orange 100%);
+    background-image: linear-gradient(white 10%,grey 100%);
   }
 
-  hr.break {
-    margin: auto;
-    margin-top: 30px;
-    border-color: black;
-  }
 }
