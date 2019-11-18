@@ -133,7 +133,7 @@ h1 {
   }
 
   .vpat {
-    display: block;
+    /* display: block; */
     margin: auto;
     height: 250px;
     padding: 0;
@@ -294,7 +294,7 @@ h1 {
   }
 
   .vpat {
-    display: block;
+    /* display: block; */
     margin: auto;
     height: 300px;
     padding: 0;
@@ -455,7 +455,7 @@ h1 {
   }
 
   .vpat {
-    display: block;
+    /* display: block; */
     margin: auto;
     height: 300px;
     padding: 0;
