@@ -883,3 +883,187 @@ h1 {
   }
 
 }
+
+@media only screen and (min-width: 1440px) {
+  .main-nav {
+    margin: auto;
+    text-align: center;
+    padding: 0;
+    }
+
+  body {
+    background: white;
+  }
+  .name {
+    height: 180px;
+    margin: 0;
+    padding: 20px 20px 20px 26px;
+    display: block;
+  }
+  .tagline {
+    margin: 0;
+  }
+  .quips {
+    margin: 0px 40px 0px 0px;
+    font-size: 48px;
+    color: black;
+    padding: 30px 20px 0px 40px;
+    text-align: left;
+    font-weight: 600;
+  }
+  li {
+    color: white;
+    padding: 15px 30px 15px 0px;
+    text-align: left;
+    font-size: 20px;
+  }
+  ul.nav {
+    /* display: inline; */
+    margin: 0;
+    padding: 0px 0px 0px 40px;
+    justify-content: left;
+  }
+
+  button {
+    display: none;
+  }
+
+  .subtag{
+    margin: auto;
+    padding: 10px 40px 40px 40px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.1rem;
+    font-style: oblique;
+  }
+
+  .cardtext {
+    /* background-image: linear-gradient(to right, grey .3%, white 15%); */
+  }
+
+  .vpat {
+    display: inline;
+    margin: 0px 0px 40px 40px;
+    height: 330px;
+    padding: 0;
+  }
+
+  .mac {
+    display: inline;
+    margin: 0px 40px 85px 100px;
+    height: 230px;
+    padding: 0;
+  }
+
+  .prepare {
+    margin: 0px 60px 0px 0px;
+    font-size: 45px;
+    color: black;
+    padding: 40px 20px 0px 40px;
+    text-align: left;
+    font-weight: 500;
+  }
+
+  .subtext {
+    margin: 0px 70px 0px 0px;
+    padding: 10px 0px 20px 40px;
+    text-align: left;
+    font-size: 25px;
+    line-height: 2rem;
+    font-weight: 500;
+  }
+
+  main.home {
+    border-radius: 25px;
+    border-top: 4px solid orange;
+    border-color: orange;
+    height: 200px;
+    background-color: white;
+    margin: 0px 200px 40px 200px;
+    box-shadow: 0px 0px 5px black;
+    transition: .2s ease-in-out;
+  }
+
+  .home:hover {
+    box-shadow: 0px 0px 15px black;
+  }
+
+  h1.projects {
+    margin: 0;
+    padding: 20px 0px 60px 40px;
+    text-align: left;
+    font-size: 28px;
+    line-height: 1.1rem;
+  }
+
+  section.contact {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    margin-top: 70px;
+    margin-bottom: 0px;
+    border-top: 4px solid orange;
+  }
+
+  h1.ready {
+    margin: 0;
+    font-size: 30px;
+    color: white;
+    padding: 30px 20px 10px 40px;
+    text-align: left;
+  }
+
+  p.info {
+    margin: 0px 70px 0px 0px;
+    padding: 10px 0px 0px 40px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.2rem;
+    font-weight: 300;
+    color: white;
+  }
+
+  .nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 20px 20px 20px;
+    margin: 0;
+  }
+
+  .link {
+    color: white;
+    padding: 15px 46px 15px 0px;
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  footer {
+    height: 75px;
+    width: 100%;
+    background-color: orange;
+    margin-bottom: 0px;
+    background-image: linear-gradient(white 10%,grey 100%);
+  }
+
+  .cogsize {
+    width: 100px;
+    height: 100px;
+  }
+
+  .cog {
+    position: absolute;
+    right: 40px;
+    top: 35px;
+  }
+  .cog:hover {
+      -webkit-animation-name: rotate;
+      -webkit-animation-duration: 1.5s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-timing-function: linear;
+  }
+  @-webkit-keyframes rotate {
+      from {-webkit-transform: rotate(0deg);}
+      to {-webkit-transform: rotate(360deg);}
+  }
+}

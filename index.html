@@ -9,9 +9,9 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
 <!-- Navigation -->
 <nav class="main-nav">
+  <div class="cog"><img class="cogsize" src="/images/cog.png" alt="Jason Karau's Logo"></div>
   <!-- <h1 class="name"><a href="index.html">Jason <br> Karau</a></h1> <hr> -->
   <img class="name" src="/images/logo2.png" alt="Jason Karau's Logo"> <hr>
     <ul class="nav">
@@ -52,7 +52,7 @@
   </main>
 
   <main class="home">
-    <h1>hi<h1>
+
   </main>
 
   <main class="home">
@@ -74,5 +74,29 @@
 <footer>
 
 </footer>
+
+<script>
+$('.cog').mousemove(function() {
+    var rotationAngle = $(this).css('-webkit-transform');
+    //console.log(rotationAngle);
+
+    // CALCULATION FROM http://css-tricks.com/get-value-of-css-rotation-through-javascript/
+    // Thank you Chris Coyier
+    var values = rotationAngle.split('(')[1].split(')')[0].split(',');
+    var a = values[0];
+    var b = values[1];
+    var c = values[2];
+    var d = values[3];
+    var angle = Math.round(Math.atan2(b, a) * (180/Math.PI));
+    g_CSS = "rotate("+angle+"deg)";
+    $(this).css('-webkit-transform', g_CSS);
+}).mouseenter(function() {
+    if(typeof g_CSS == 'undefined') {
+        $(this).css('-webkit-transform', 'rotate(0deg)');
+    } else {
+        $(this).css('-webkit-transform', g_CSS);
+    }
+});
+</script>
 </body>
 </html>
