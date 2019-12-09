@@ -11,13 +11,13 @@
 <body>
 <!-- Navigation -->
 <nav class="main-nav">
-  <div class="cog"><img class="cogsize" src="/images/cog.png" alt="Jason Karau's Logo"></div>
-  <!-- <h1 class="name"><a href="index.html">Jason <br> Karau</a></h1> <hr> -->
+  <a href="music.html"><div class="cog"><img class="cogsize" src="/images/cog.png" alt="cog wheel that links to music page"></div></a>
+  <p class="cog_caption">Music Production</p>
   <img class="name" src="/images/logo2.png" alt="Jason Karau's Logo"> <hr>
     <ul class="nav">
       <li><a href="work.html">Works</a></li>
-      <li><a href="#about">About Me</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="contact.html">Contact</a></li>
     </ul>
 </nav>
 
@@ -62,12 +62,12 @@
 
 <section class="contact" id="contact">
   <h1 class="ready">Get in touch</h1>
-  <p class="info">email here</p>
+  <p class="info">karaudesign@outlook.com</p>
   <p class="info">Social:</p>
   <ul class="nav">
-    <li class="link"><a href="">LinkedIn</a></li>
-    <li class="link"><a href="">Instagram</a></li>
-    <li class="link"><a href="">Behance</a></li>
+    <li class="link"><a href="https://www.linkedin.com/in/karau-design">LinkedIn</a></li>
+    <li class="link"><a href="https://www.instagram.com/karaudesign/">Instagram</a></li>
+    <li class="link"><a href="https://www.behance.net/karaudesign">Behance</a></li>
   </ul>
 </section>
 
@@ -76,27 +76,6 @@
 </footer>
 
 <script>
-$('.cog').mousemove(function() {
-    var rotationAngle = $(this).css('-webkit-transform');
-    //console.log(rotationAngle);
-
-    // CALCULATION FROM http://css-tricks.com/get-value-of-css-rotation-through-javascript/
-    // Thank you Chris Coyier
-    var values = rotationAngle.split('(')[1].split(')')[0].split(',');
-    var a = values[0];
-    var b = values[1];
-    var c = values[2];
-    var d = values[3];
-    var angle = Math.round(Math.atan2(b, a) * (180/Math.PI));
-    g_CSS = "rotate("+angle+"deg)";
-    $(this).css('-webkit-transform', g_CSS);
-}).mouseenter(function() {
-    if(typeof g_CSS == 'undefined') {
-        $(this).css('-webkit-transform', 'rotate(0deg)');
-    } else {
-        $(this).css('-webkit-transform', g_CSS);
-    }
-});
 </script>
 </body>
 </html>

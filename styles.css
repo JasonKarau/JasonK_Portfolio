@@ -556,6 +556,35 @@ h1 {
     margin-top: 30px;
     border-color: black;
   }
+
+  .cogsize {
+    width: 60px;
+    height: 60px;
+  }
+
+  .cog {
+    position: absolute;
+    right: 60px;
+    top: 25px;
+  }
+  .cog:hover {
+      -webkit-animation-name: rotate;
+      -webkit-animation-duration: 1.5s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-timing-function: linear;
+  }
+
+  .cog_caption {
+    position: absolute;
+    right: 28px;
+    top: 80px;
+    color: white;
+  }
+
+  @-webkit-keyframes rotate {
+      from {-webkit-transform: rotate(0deg);}
+      to {-webkit-transform: rotate(360deg);}
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -719,6 +748,35 @@ h1 {
     background-image: linear-gradient(white 10%,grey 100%);
   }
 
+  .cogsize {
+    width: 80px;
+    height: 80px;
+  }
+
+  .cog {
+    position: absolute;
+    right: 60px;
+    top: 20px;
+  }
+  .cog:hover {
+      -webkit-animation-name: rotate;
+      -webkit-animation-duration: 1.5s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-timing-function: linear;
+  }
+
+  .cog_caption {
+    position: absolute;
+    right: 35px;
+    top: 100px;
+    color: white;
+  }
+
+  @-webkit-keyframes rotate {
+      from {-webkit-transform: rotate(0deg);}
+      to {-webkit-transform: rotate(360deg);}
+  }
+
 }
 
 @media only screen and (min-width: 1024px) {
@@ -880,6 +938,34 @@ h1 {
     background-color: orange;
     margin-bottom: 0px;
     background-image: linear-gradient(white 10%,grey 100%);
+  }
+
+  .cogsize {
+    width: 80px;
+    height: 80px;
+  }
+
+  .cog {
+    position: absolute;
+    right: 60px;
+    top: 20px;
+  }
+  .cog:hover {
+      -webkit-animation-name: rotate;
+      -webkit-animation-duration: 1.5s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-timing-function: linear;
+  }
+
+  .cog_caption {
+    position: absolute;
+    right: 35px;
+    top: 100px;
+    color: white;
+  }
+  @-webkit-keyframes rotate {
+      from {-webkit-transform: rotate(0deg);}
+      to {-webkit-transform: rotate(360deg);}
   }
 
 }
@@ -1053,14 +1139,21 @@ h1 {
 
   .cog {
     position: absolute;
-    right: 40px;
-    top: 35px;
+    right: 60px;
+    top: 20px;
   }
   .cog:hover {
       -webkit-animation-name: rotate;
       -webkit-animation-duration: 1.5s;
       -webkit-animation-iteration-count: infinite;
       -webkit-animation-timing-function: linear;
+  }
+
+  .cog_caption {
+    position: absolute;
+    right: 45px;
+    top: 120px;
+    color: white;
   }
   @-webkit-keyframes rotate {
       from {-webkit-transform: rotate(0deg);}
