@@ -50,7 +50,7 @@ a:hover {
 }
 
 .project_a:hover {
-  
+
 }
 
 li {
@@ -1042,6 +1042,7 @@ h1 {
     margin-left: 20px;
     display: block;
   }
+
   footer {
     height: 75px;
     width: 100%;
@@ -1077,10 +1078,241 @@ h1 {
       from {-webkit-transform: rotate(0deg);}
       to {-webkit-transform: rotate(360deg);}
   }
-
 }
 
 @media only screen and (min-width: 1440px) {
+  .main-nav {
+    margin: auto;
+    text-align: center;
+    padding: 0;
+    }
+
+  body {
+    background: white;
+  }
+  .name {
+    height: 180px;
+    margin: 0;
+    padding: 20px 20px 20px 26px;
+    display: block;
+  }
+  .tagline {
+    margin: 0;
+  }
+  .quips {
+    margin: 0px 40px 0px 0px;
+    font-size: 48px;
+    color: black;
+    padding: 30px 20px 0px 40px;
+    text-align: left;
+    font-weight: 600;
+  }
+  li {
+    color: white;
+    padding: 15px 30px 15px 0px;
+    text-align: left;
+    font-size: 20px;
+  }
+  ul.nav {
+    /* display: inline; */
+    margin: 0;
+    padding: 0px 0px 0px 40px;
+    justify-content: left;
+  }
+
+  button {
+    display: none;
+  }
+
+  .subtag{
+    margin: auto;
+    padding: 10px 40px 40px 40px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.1rem;
+    font-style: oblique;
+  }
+
+  .vpat {
+    display: inline;
+    margin: 0px 0px 40px 40px;
+    height: 330px;
+    padding: 0;
+  }
+
+  .mac {
+    display: inline;
+    margin: 0px 40px 70px 200px;
+    height: 260px;
+    padding: 0;
+  }
+
+  .prepare {
+    margin: 0px 60px 0px 0px;
+    font-size: 45px;
+    color: black;
+    padding: 40px 20px 0px 40px;
+    text-align: left;
+    font-weight: 500;
+  }
+
+  .subtext {
+    margin: 0px 70px 0px 0px;
+    padding: 10px 0px 20px 40px;
+    text-align: left;
+    font-size: 25px;
+    line-height: 2rem;
+    font-weight: 500;
+  }
+
+  main.home {
+    border-radius: 25px;
+    border-top: 4px solid orange;
+    border-color: orange;
+    height: 200px;
+    background-color: white;
+    margin: 0px 40px 40px 40px;
+    box-shadow: 0px 0px 5px black;
+    transition: .2s ease-in-out;
+  }
+
+  .home:hover {
+    box-shadow: 0px 0px 15px black;
+  }
+
+  h1.projects {
+    margin: 0;
+    padding: 20px 0px 60px 40px;
+    text-align: left;
+    font-size: 28px;
+    line-height: 1.1rem;
+  }
+
+  section.contact {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    margin-top: 70px;
+    margin-bottom: 0px;
+    border-top: 4px solid orange;
+  }
+
+  h1.ready {
+    margin: 0;
+    font-size: 30px;
+    color: white;
+    padding: 30px 20px 10px 40px;
+    text-align: left;
+  }
+
+  p.info {
+    margin: 0px 70px 0px 0px;
+    padding: 10px 0px 0px 40px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.2rem;
+    font-weight: 300;
+    color: white;
+  }
+
+  .nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 20px 20px 20px;
+    margin: 0;
+  }
+
+  .link {
+    color: white;
+    padding: 15px 46px 15px 0px;
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  .cardgrid {
+   display: grid;
+   grid-template-columns: auto auto auto;
+   padding: auto;
+   float: center;
+  }
+
+  .card_image {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: auto;
+    height: auto;
+    object-fit: fill;
+    float: none;
+  }
+
+  .card_image_icon {
+    padding-top: 20px;
+    margin: 0;
+    width: auto;
+    height: auto;
+    object-fit: fill;
+    border-radius: 20px;
+    float: none;
+  }
+
+  .card_text {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-right: 60px;
+    margin-left: 60px;
+    display: block;
+  }
+
+  .card_text_icon {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-left: 60px;
+    margin-right: 60px;
+    display: block;
+  }
+
+  footer {
+    height: 75px;
+    width: 100%;
+    background-color: orange;
+    margin-bottom: 0px;
+    background-image: linear-gradient(white 10%,grey 100%);
+  }
+
+  .cogsize {
+    width: 100px;
+    height: 100px;
+  }
+
+  .cog {
+    position: absolute;
+    right: 60px;
+    top: 20px;
+  }
+  .cog:hover {
+      -webkit-animation-name: rotate;
+      -webkit-animation-duration: 1.5s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-timing-function: linear;
+  }
+
+  .cog_caption {
+    position: absolute;
+    right: 45px;
+    top: 120px;
+    color: white;
+  }
+
+  @-webkit-keyframes rotate {
+      from {-webkit-transform: rotate(0deg);}
+      to {-webkit-transform: rotate(360deg);}
+  }
+}
+
+@media only screen and (min-width: 2560px) {
   .main-nav {
     margin: auto;
     text-align: center;
@@ -1236,6 +1468,42 @@ h1 {
     font-weight: 300;
   }
 
+  .card_image {
+    margin-top: 60px;
+    margin-left: 20px;
+    width: auto;
+    height: auto;
+    object-fit: fill;
+    border-radius: 20px;
+    float: left;
+  }
+
+  .card_image_icon {
+    margin-top: 60px;
+    margin-left: 115px;
+    width: auto;
+    height: auto;
+    object-fit: fill;
+    border-radius: 20px;
+    float: left;
+  }
+
+  .card_text {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 75px;
+    margin-right: 60px;
+    display: block;
+  }
+
+  .card_text_icon {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 75px;
+    margin-left: 20px;
+    display: block;
+  }
+
   footer {
     height: 75px;
     width: 100%;
@@ -1267,6 +1535,7 @@ h1 {
     top: 120px;
     color: white;
   }
+
   @-webkit-keyframes rotate {
       from {-webkit-transform: rotate(0deg);}
       to {-webkit-transform: rotate(360deg);}
