@@ -45,6 +45,14 @@ a:hover {
   color: orange;
 }
 
+.project_a {
+  color: black;
+}
+
+.project_a:hover {
+  
+}
+
 li {
   color: white;
   padding: 0px 40px 0px 0px;
@@ -902,10 +910,6 @@ h1 {
     font-style: oblique;
   }
 
-  .cardtext {
-    /* background-image: linear-gradient(to right, grey .3%, white 15%); */
-  }
-
   .vpat {
     display: inline;
     margin: 0px 0px 40px 40px;
@@ -1013,15 +1017,31 @@ h1 {
     float: left;
   }
 
+  .card_image_icon {
+    margin-top: 60px;
+    margin-left: 115px;
+    width: auto;
+    height: auto;
+    object-fit: fill;
+    border-radius: 20px;
+    float: left;
+  }
+
   .card_text {
     font-size: 30px;
     font-weight: 700;
     margin-top: 75px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 60px;
     display: block;
   }
 
+  .card_text_icon {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 75px;
+    margin-left: 20px;
+    display: block;
+  }
   footer {
     height: 75px;
     width: 100%;
