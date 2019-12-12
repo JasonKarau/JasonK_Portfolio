@@ -57,7 +57,6 @@ li {
   color: white;
   padding: 0px 40px 0px 0px;
   display: block;
-  font-size: 18px;
 }
 
 hr {
@@ -111,11 +110,14 @@ h1 {
     text-align: left;
     font-weight: 600;
   }
+
   li {
     color: white;
-    padding: 15px 20px 15px 0px;
+    padding: 15px 15px 15px 0px;
     text-align: left;
+    font-size: 14px;
   }
+
   ul.nav {
     /* display: inline; */
     margin: 0;
@@ -187,11 +189,19 @@ h1 {
     line-height: 1.1rem;
   }
 
+  h1.projects2 {
+    margin: 0;
+    padding: 20px 0px 30px 40px;
+    text-align: left;
+    font-size: 23px;
+    line-height: 1.1rem;
+  }
+
   section.contact {
     height: 200px;
     width: 100%;
     background-color: black;
-    margin-top: 70px;
+    margin-top: 20px;
     margin-bottom: 0px;
     border-top: 4px solid orange;
   }
@@ -230,20 +240,42 @@ h1 {
   }
 
   .card_image {
-    margin-top: 20px;
+    padding-top: 20px;
+    margin: 0;
     width: 80%;
     height: auto;
     object-fit: fill;
     border-radius: 20px;
-    /* margin-right: 20px; */
   }
 
   .card_text {
     font-size: 25px;
     font-weight: 700;
     margin-top: 25px;
-    margin-left: 20px;
-    margin-right: 20px;
+  }
+
+  .card_image_icon {
+    padding-top: 20px;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    object-fit: fill;
+    border-radius: 20px;
+  }
+
+  .card_text_icon {
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px 20px 0px 20px;
+    margin: 0;
+  }
+
+  .cog {
+    display: none;
+  }
+
+  .cog_caption {
+    display: none;
   }
 
   footer {
@@ -293,6 +325,7 @@ h1 {
     color: white;
     padding: 15px 20px 15px 0px;
     text-align: left;
+    font-size: 16px;
   }
   ul.nav {
     /* display: inline; */
@@ -369,7 +402,7 @@ h1 {
     height: 200px;
     width: 100%;
     background-color: black;
-    margin-top: 70px;
+    margin-top: 20px;
     margin-bottom: 0px;
     border-top: 4px solid orange;
   }
@@ -408,9 +441,8 @@ h1 {
   }
 
   .card_image {
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding-top: 20px;
+    margin: 0;
     width: auto;
     height: auto;
     object-fit: fill;
@@ -421,6 +453,30 @@ h1 {
     font-size: 25px;
     font-weight: 700;
     margin-top: 25px;
+  }
+
+  .card_image_icon {
+    padding-top: 20px;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    object-fit: fill;
+    border-radius: 20px;
+  }
+
+  .card_text_icon {
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px 20px 0px 20px;
+    margin: 0;
+  }
+
+  .cog {
+    display: none;
+  }
+
+  .cog_caption {
+    display: none;
   }
 
   footer {
@@ -470,6 +526,7 @@ h1 {
     color: white;
     padding: 15px 20px 15px 0px;
     text-align: left;
+    font-size: 18px;
   }
   ul.nav {
     /* display: inline; */
@@ -534,7 +591,7 @@ h1 {
     box-shadow: 0px 0px 5px black;
   }
 
-  h1.projects {
+  h1.projects2 {
     margin: 0;
     padding: 20px 0px 30px 40px;
     text-align: left;
@@ -546,7 +603,7 @@ h1 {
     height: 200px;
     width: 100%;
     background-color: black;
-    margin-top: 70px;
+    margin-top: 20px;
     margin-bottom: 0px;
     border-top: 4px solid orange;
   }
@@ -585,8 +642,8 @@ h1 {
   }
 
   .card_image {
-    margin-top: 20px;
-    margin-right: 20px;
+    padding-top: 20px;
+    margin: 0;
     width: auto;
     height: auto;
     object-fit: fill;
@@ -597,8 +654,22 @@ h1 {
     font-size: 25px;
     font-weight: 700;
     margin-top: 25px;
-    margin-left: 20px;
-    margin-right: 20px;
+  }
+
+  .card_image_icon {
+    padding-top: 20px;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    object-fit: fill;
+    border-radius: 20px;
+  }
+
+  .card_text_icon {
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px 20px 0px 20px;
+    margin: 0;
   }
 
   footer {
@@ -756,6 +827,10 @@ h1 {
     line-height: 1.1rem;
   }
 
+  h1.projects2 {
+    display: none;
+  }
+
   section.contact {
     height: 200px;
     width: 100%;
@@ -813,6 +888,30 @@ h1 {
     margin-top: 25px;
   }
 
+  .card_image_icon {
+    padding-top: 20px;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    object-fit: fill;
+    border-radius: 20px;
+  }
+
+  .card_text_icon {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 20px 20px 0px 20px;
+    margin: 0;
+  }
+
+  h1.projects2 {
+    margin: 0;
+    padding: 20px 0px 60px 40px;
+    text-align: left;
+    font-size: 28px;
+    line-height: 1.1rem;
+  }
+
   footer {
     height: 75px;
     width: 100%;
@@ -830,6 +929,7 @@ h1 {
     position: absolute;
     right: 60px;
     top: 20px;
+    display: block;
   }
   .cog:hover {
       -webkit-animation-name: rotate;
@@ -843,6 +943,7 @@ h1 {
     right: 35px;
     top: 100px;
     color: white;
+    display: block;
   }
 
   @-webkit-keyframes rotate {
@@ -1008,7 +1109,7 @@ h1 {
   }
 
   .card_image {
-    margin-top: 60px;
+    margin-top: 40px;
     margin-left: 20px;
     width: auto;
     height: auto;
@@ -1017,8 +1118,17 @@ h1 {
     float: left;
   }
 
+
+  .card_text {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 75px;
+    margin-left: 60px;
+    display: block;
+  }
+
   .card_image_icon {
-    margin-top: 60px;
+    margin-top: 40px;
     margin-left: 115px;
     width: auto;
     height: auto;
@@ -1027,19 +1137,12 @@ h1 {
     float: left;
   }
 
-  .card_text {
-    font-size: 30px;
-    font-weight: 700;
-    margin-top: 75px;
-    margin-right: 60px;
-    display: block;
-  }
-
   .card_text_icon {
     font-size: 30px;
     font-weight: 700;
     margin-top: 75px;
     margin-left: 20px;
+    padding-top: 0px;
     display: block;
   }
 
@@ -1257,11 +1360,12 @@ h1 {
   }
 
   .card_text {
+    margin: 0;
     font-size: 30px;
     font-weight: 700;
-    margin-top: 0px;
-    margin-right: 60px;
-    margin-left: 60px;
+    padding-top: 10px;
+    padding-right: 60px;
+    padding-left: 60px;
     display: block;
   }
 
