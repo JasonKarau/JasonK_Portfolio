@@ -125,6 +125,10 @@ h1 {
     justify-content: left;
   }
 
+  a.card_link {
+    color: black;
+  }
+
   button {
     display: none;
   }
@@ -334,6 +338,10 @@ h1 {
     justify-content: left;
   }
 
+  a.card_link {
+    color: black;
+  }
+
   button {
     display: none;
   }
@@ -533,6 +541,10 @@ h1 {
     margin: 0;
     padding: 0px 0px 0px 40px;
     justify-content: left;
+  }
+
+  a.card_link {
+    color: black;
   }
 
   button {
@@ -755,6 +767,10 @@ h1 {
     justify-content: left;
   }
 
+  a.card_link {
+    color: black;
+  }
+
   button {
     display: none;
   }
@@ -957,6 +973,10 @@ h1 {
   .mac {
     display: inline;
   }
+
+  a.card_link {
+    color: black;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -996,6 +1016,10 @@ h1 {
     margin: 0;
     padding: 0px 0px 0px 40px;
     justify-content: left;
+  }
+
+  a.card_link {
+    color: black;
   }
 
   button {
@@ -1221,6 +1245,10 @@ h1 {
     margin: 0;
     padding: 0px 0px 0px 40px;
     justify-content: left;
+  }
+
+  a.card_link {
+    color: black;
   }
 
   button {
@@ -1454,6 +1482,10 @@ h1 {
     margin: 0;
     padding: 0px 0px 0px 40px;
     justify-content: left;
+  }
+
+  a.card_link {
+    color: black;
   }
 
   button {
