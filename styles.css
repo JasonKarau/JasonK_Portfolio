@@ -82,9 +82,51 @@ h1 {
   text-align: left;
 }
 
-button {
-  width: 20px;
-  height: 20px;
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Rubik', sans-serif;
+  transition: .2s ease-in-out;
+}
+
+.button:hover {
+  box-shadow: 0px 0px 5px black;
+  background-color: orange;
+  transition: .2s ease-in-out;
+  color: black;
+
+}
+input {
+  width: 100%; /* Full width */
+  padding: 16px; /* Some padding */
+  border: 1px solid black; /* Gray border */
+  border-radius: 7px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical;
+  font-family: 'Rubik', sans-serif;
+}
+
+textarea {
+  width: 100%; /* Full width */
+  padding: 16px; /* Some padding */
+  border: 1px solid black; /* Gray border */
+  border-radius: 7px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical;
+  font-family: 'Rubik', sans-serif;
+}
+.contact_sec {
+  margin: 40px 250px 40px 250px;
 }
 
 @media only screen and (min-width: 320px) {
@@ -132,10 +174,6 @@ button {
 
   a.card_link {
     color: black;
-  }
-
-  button {
-    display: none;
   }
 
   .subtag {
@@ -347,10 +385,6 @@ button {
     color: black;
   }
 
-  button {
-    display: none;
-  }
-
   .subtag{
     margin: auto;
     padding: 10px 40px 50px 40px;
@@ -550,10 +584,6 @@ button {
 
   a.card_link {
     color: black;
-  }
-
-  button {
-    display: none;
   }
 
   .subtag{
@@ -774,10 +804,6 @@ button {
 
   a.card_link {
     color: black;
-  }
-
-  button {
-    display: none;
   }
 
   .subtag{
@@ -1027,10 +1053,6 @@ button {
     color: black;
   }
 
-  button {
-    display: none;
-  }
-
   .subtag{
     margin: auto;
     padding: 10px 40px 40px 40px;
@@ -1206,9 +1228,42 @@ button {
     top: 100px;
     color: white;
   }
+
   @-webkit-keyframes rotate {
       from {-webkit-transform: rotate(0deg);}
       to {-webkit-transform: rotate(360deg);}
+  }
+
+  .storm_img_div{
+    display: inline-grid;
+    grid-template-columns: 320px 400px auto;
+  }
+
+  .storm_img{
+    width: 90%;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 20px;
+    margin-right: 40px;
+  }
+
+  .project_title{
+    float: left;
+    margin: 0;
+    padding: 0px 40px 40px 40px;
+    text-align: left;
+    font-size: 35px;
+    line-height: 2.2rem;
+    font-weight: 700;
+  }
+
+  .project_desc {
+    margin: 0;
+    padding: 0px 60px 0px 0px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.5rem;
+    font-weight: 700;
+    float: right;
   }
 }
 
@@ -1254,10 +1309,6 @@ button {
 
   a.card_link {
     color: black;
-  }
-
-  button {
-    display: none;
   }
 
   .subtag{
@@ -1491,10 +1542,6 @@ button {
 
   a.card_link {
     color: black;
-  }
-
-  button {
-    display: none;
   }
 
   .subtag{
