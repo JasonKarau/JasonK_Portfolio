@@ -102,32 +102,6 @@ h1 {
   color: black;
 
 }
-input {
-  width: 100%; /* Full width */
-  padding: 16px; /* Some padding */
-  border: 1px solid black; /* Gray border */
-  border-radius: 7px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical;
-  font-family: 'Rubik', sans-serif;
-}
-
-textarea {
-  width: 100%; /* Full width */
-  padding: 16px; /* Some padding */
-  border: 1px solid black; /* Gray border */
-  border-radius: 7px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical;
-  font-family: 'Rubik', sans-serif;
-}
-.contact_sec {
-  margin: 40px 250px 40px 250px;
-}
 
 @media only screen and (min-width: 320px) {
   .main-nav {
@@ -338,6 +312,80 @@ textarea {
     margin-top: 30px;
     border-color: black;
   }
+
+  .storm_img_div{
+    display: inline;
+  }
+
+  .storm_img{
+    width: 65%;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 20px;
+    margin: 0px 40px 40px 40px;
+  }
+
+  .theme_img{
+    width: 80%;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .project_title_sec {
+    margin: 0px 40px 0px 0px;
+    font-size: 45px;
+    color: black;
+    padding: 0px 20px 0px 40px;
+    text-align: left;
+    font-weight: 600;
+  }
+  .project_title{
+    float: left;
+    margin: 0;
+    padding: 0px 40px 40px 40px;
+    text-align: left;
+    font-size: 35px;
+    line-height: 2.2rem;
+    font-weight: 700;
+  }
+
+  .project_desc {
+    margin: 0px 40px 40px 40px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.5rem;
+    font-weight: 700;
+    float: right;
+  }
+
+  input {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'Rubik', sans-serif;
+  }
+
+  textarea {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'Rubik', sans-serif;
+  }
+
+  .contact_sec {
+    margin: 40px 40px 40px 40px;
+  }
 }
 
 @media only screen and (min-width: 375px) {
@@ -538,6 +586,81 @@ textarea {
     margin: auto;
     margin-top: 30px;
     border-color: black;
+  }
+
+  .storm_img_div{
+    display: inline;
+  }
+
+  .storm_img{
+    width: 70%;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 20px;
+    margin: 0px 40px 40px 40px;
+  }
+
+  .project_title{
+    float: left;
+    margin: 0;
+    padding: 0px 40px 40px 40px;
+    text-align: left;
+    font-size: 35px;
+    line-height: 2.2rem;
+    font-weight: 700;
+  }
+
+  .theme_img{
+    width: 80%;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .project_title_sec {
+    margin: 0px 40px 0px 0px;
+    font-size: 45px;
+    color: black;
+    padding: 0px 20px 0px 40px;
+    text-align: left;
+    font-weight: 600;
+  }
+
+  .project_desc {
+    margin: 0px 40px 40px 40px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.5rem;
+    font-weight: 700;
+    float: right;
+  }
+
+  input {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'Rubik', sans-serif;
+  }
+
+  textarea {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'Rubik', sans-serif;
+  }
+
+  .contact_sec {
+    margin: 40px 40px 40px 40px;
   }
 }
 
@@ -761,6 +884,81 @@ textarea {
       from {-webkit-transform: rotate(0deg);}
       to {-webkit-transform: rotate(360deg);}
   }
+
+  .storm_img_div{
+    display: inline;
+  }
+
+  .storm_img{
+    width: 80%;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 20px;
+    margin: 0px 40px 40px 40px;
+  }
+
+  .theme_img{
+    width: 80%;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .project_title{
+    float: left;
+    margin: 0;
+    padding: 0px 40px 40px 40px;
+    text-align: left;
+    font-size: 35px;
+    line-height: 2.2rem;
+    font-weight: 700;
+  }
+
+  .project_title_sec {
+    margin: 0px 40px 0px 0px;
+    font-size: 45px;
+    color: black;
+    padding: 0px 20px 0px 40px;
+    text-align: left;
+    font-weight: 600;
+  }
+
+  .project_desc {
+    margin: 0px 40px 40px 40px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.5rem;
+    font-weight: 700;
+    float: right;
+  }
+
+  input {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'Rubik', sans-serif;
+  }
+
+  textarea {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'Rubik', sans-serif;
+  }
+
+  .contact_sec {
+    margin: 40px 40px 40px 40px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -844,7 +1042,7 @@ textarea {
 
   .subtext {
     margin: 0px 70px 0px 0px;
-    padding: 10px 0px 20px 40px;
+    padding: 20px 0px 20px 40px;
     text-align: left;
     font-size: 20px;
     line-height: 1.2rem;
@@ -998,6 +1196,82 @@ textarea {
       to {-webkit-transform: rotate(360deg);}
   }
 
+  .storm_img_div{
+    display: inline-grid;
+    grid-template-columns: 230px 300px auto;
+  }
+
+
+  .storm_img{
+    width: 90%;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 20px;
+    margin: 0;
+  }
+
+  .theme_img{
+    width: 70%;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .project_title_sec {
+    margin: 0px 40px 0px 0px;
+    font-size: 45px;
+    color: black;
+    padding: 0px 20px 0px 40px;
+    text-align: left;
+    font-weight: 600;
+  }
+
+  .project_title{
+    float: left;
+    margin: 0;
+    padding: 0px 40px 40px 40px;
+    text-align: left;
+    font-size: 35px;
+    line-height: 2.2rem;
+    font-weight: 700;
+  }
+
+  .project_desc {
+    margin: 0;
+    padding: 0px 40px 0px 0px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.5rem;
+    font-weight: 700;
+    float: right;
+  }
+
+  input {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'Rubik', sans-serif;
+  }
+
+  textarea {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'Rubik', sans-serif;
+  }
+  .contact_sec {
+    margin: 40px 150px 40px 150px;
+  }
 }
 
 @media only screen and (min-width: 840px) {
@@ -1265,6 +1539,34 @@ textarea {
     font-weight: 700;
     float: right;
   }
+
+  input {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'Rubik', sans-serif;
+  }
+
+  textarea {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'Rubik', sans-serif;
+  }
+
+  .contact_sec {
+    margin: 40px 300px 40px 300px;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
@@ -1497,6 +1799,34 @@ textarea {
   @-webkit-keyframes rotate {
       from {-webkit-transform: rotate(0deg);}
       to {-webkit-transform: rotate(360deg);}
+  }
+
+  input {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'Rubik', sans-serif;
+  }
+
+  textarea {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'Rubik', sans-serif;
+  }
+
+  .contact_sec {
+    margin: 40px 400px 40px 400px;
   }
 }
 
