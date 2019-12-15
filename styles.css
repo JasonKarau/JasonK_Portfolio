@@ -103,6 +103,12 @@ h1 {
 }
 
 @media only screen and (min-width: 320px) {
+  .spot {
+    width: 240px;
+    height: 400px;
+    margin: 20px;
+  }
+
   .main-nav {
     margin: auto;
     text-align: center;
@@ -394,6 +400,12 @@ h1 {
     padding: 0;
     }
 
+    .spot {
+      width: 310px;
+      height: 400px;
+      margin: 20px;
+    }
+
   body {
     background: white;
   }
@@ -668,6 +680,12 @@ h1 {
     margin: 0;
     text-align: center;
     padding: 0;
+    }
+
+    .spot {
+      width: 350px;
+      height: 400px;
+      margin: 20px;
     }
 
   body {
@@ -965,6 +983,12 @@ h1 {
     margin: auto;
     text-align: center;
     padding: 0;
+    }
+
+    .spot {
+      width: 600px;
+      height: 400px;
+      margin: 30px;
     }
 
   body {
@@ -1310,6 +1334,12 @@ h1 {
     margin: auto;
     text-align: center;
     padding: 0;
+    }
+
+    .spot {
+      width: 900px;
+      height: 400px;
+      margin: 40px;
     }
 
   body {
