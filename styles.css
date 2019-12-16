@@ -103,6 +103,10 @@ h1 {
 }
 
 @media only screen and (min-width: 320px) {
+  .license {
+    display: none;
+  }
+
   .spot {
     width: 240px;
     height: 400px;
@@ -394,6 +398,10 @@ h1 {
 }
 
 @media only screen and (min-width: 375px) {
+  .license {
+    display: block;
+  }
+
   .main-nav {
     margin: 0;
     text-align: center;
